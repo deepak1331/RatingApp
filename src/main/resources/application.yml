@@ -1,0 +1,19 @@
+server:
+  .port: 8083
+
+  servlet:
+    context-path: "/"
+
+spring:
+  application:
+    name: RatingApp
+  datasource:
+    url: jdbc:mysql://root@localhost:3306/microservice
+    username: root
+    password: Avyaan@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
