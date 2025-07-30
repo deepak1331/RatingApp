@@ -1,4 +1,4 @@
-package com.learn.RatingApp.repository.impl;
+package com.learn.RatingApp.service.impl;
 
 import com.learn.RatingApp.entity.Rating;
 import com.learn.RatingApp.exception.ResourceNotFoundException;
